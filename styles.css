@@ -103,8 +103,16 @@ body{
     height: .5rem;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    bottom: 0; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
 
 @media screen and (0 < width <= 600px){
     #main{
