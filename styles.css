@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+body{
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+#main{
+    border-radius: 10px;
+    background: hsl(216, 50%, 16%);
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main:hover{
+    cursor: pointer;
+}
+#first{
+    border-bottom: solid 2px  hsl(215, 32%, 27%);
+    height: 85%;
+    width: 90%;
+}
+.bg{
+    background: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 0 0 0 ;
+    position: absolute;
+    border-radius: 10px;
+    width: 18%;
+    height: 30%;
+    opacity: 0;
+}
+#img{
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 100%;
+    height: 50%;
+}
+.bg:active{
+    opacity: 0.5;
+}
+#img-two{
+    height: 50px;
+}
+.one{
+    padding: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+}
+.blue:active{
+    color: hsl(178, 100%, 50%);
+}
+#two{
+    padding: 0 0 2rem 0;
+    color: hsl(215, 51%, 70%);
+}
+#three{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two, .three{
+    display: flex;
+    align-items: center;
+
+}
+.two{
+    margin-left: 1rem;
+}
+.two p{
+   padding-left: .5rem; 
+   color: hsl(178, 100%, 50%);
+}
+.three{
+    margin-right: 1rem;
+}
+.three p{
+    padding-left: .5rem; 
+ }
+.last{
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+}
+.last p{
+    color: hsl(215, 51%, 70%);
+}
+.last img{
+    padding: 0 .5rem;
+    height: .5rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (0 < width <= 600px){
+    #main{
+        width: 60%; 
+    }
+    .bg{
+        width: 55%;
+    }
+}
+@media screen and (600px < width <= 1000px){
+    #main{
+        width: 40%; 
+    }
+    .bg{
+        width: 36%;
+    }
+}
+@media screen and (1000px < width <= 1400px){
+    #main{
+        width: 30%; 
+    }
+    .bg{
+        width: 27%;
+    }
+}
+   
